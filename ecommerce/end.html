@@ -1,0 +1,114 @@
+
+<div class="form">
+    
+    <form form="login_form" onsubmit="submit_form()">
+        
+        <h2>Order Form</h2>
+        <label for="text">Name: </label>
+        <input type="text" placeholder="enter your name"/><br><br>
+        <label for="text">Email-id:</label>
+        <input type="text" placeholder="enter your email id"/><br><br>
+        <label for="text">city:</label>
+        <input type="text" placeholder="enter your address"/><br><br>
+        <label for="text">Landmark:</label>
+        <input type="text" placeholder="enter your landmark"/> <br><br>
+        <label for="number">Contact:</label>
+        <input type="number" placeholder="enter your number"/><br><br>
+        <label for="text">Quantity:</label>
+        <input type="number" placeholder="enter your quantity"/><br><br>
+        <label for="text">State:</label>
+        <select id="inputState" class="form-select">
+            <option selected>Tamilnadu</option>
+            <option>kerala</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            
+        </select><br><br>
+        <label for="text">Country:</label>
+        <select id="inputState" class="form-select">
+            <option selected>India</option>
+            <option>Japan</option>
+            <option>Maleshia</option>
+            <option>chaina</option>
+            
+        </select><br><br>
+        <div class="b">
+        <button>submit</button>
+        </div>
+        
+        
+        
+
+
+        
+    
+    
+    </form>
+
+
+    
+     <script type="text/javascript">
+        function submit_form(){
+alert("login successfully");
+
+        }
+        
+        
+    </script> 
+    <style>
+        body{
+            background-image: url(mo1.webp);
+            background-repeat: no-repeat;
+            
+            
+            
+        
+        }
+        .form{
+            background-image: url(mo1.webp);
+            border: 2px solid black;
+            margin-left: 400px;
+            margin-right: 200px;
+            padding-left: 80px;
+        
+            border-radius: 50px;
+           
+           font-size: 35px;
+           color:black;
+        }
+        .form h2{
+            font-family: 'Courier New', Courier, monospace;
+            color: black;
+            padding-left: 40px;
+            text-shadow: 2px 2px green;
+        }
+        .b button:hover{
+            background-color: green;
+        }
+        .b{
+            margin-left: 200px;
+            
+
+            
+            
+        }
+        .b button{
+            padding: 20px;
+            width: 150px;
+            border-radius: 50px;
+        }
+        .form input{
+            padding: 10px;
+            width: 300px;
+            border-radius: 50px;
+        }
+        .form-select{
+            
+            width: 150px;
+            height: 30px;
+            border-radius: 50px;
+
+        }
+
+                
+    </style>

@@ -1,0 +1,32 @@
+.container-fluid{
+    background-color: slategray;
+    padding: 20px;
+}
+
+#photo .fi{
+    margin-top: 400px;
+    margin-left: 75px;
+}
+#photo .fm{
+    margin-top: 250px;
+    
+}
+#photo .fa{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+#photo .fg{
+    margin-top: 5px;
+    
+}
+.bold{
+     font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 850px;
+    left: 150px;
+    
+}
+ #photo{
+    margin-top: 50px;
+}

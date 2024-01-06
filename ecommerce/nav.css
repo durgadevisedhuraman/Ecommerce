@@ -1,0 +1,47 @@
+
+
+.container-fluid{
+    background-color: slategray;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+.h{
+    margin-left: 450px;
+    margin-top: 20px;
+    
+}
+.container:hover img{
+    transform: scale(1.1);
+    margin-top: 15px;
+    
+}
+.img{
+    margin-top: 125px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 40px;
+    background-color:#ced4da;
+}
+.img p{
+    margin-top: 50px;
+    
+    
+}
+.img1{
+    margin-top: 125px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:#ced4da;
+
+}
+.img1 p{
+    margin-left: 100px;
+    
+    background-color:#ced4da;
+    margin-top: 50px;
+
+}
